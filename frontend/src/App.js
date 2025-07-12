@@ -10,7 +10,7 @@ import SymptomChecker from './pages/DiseaseDetection';
 import PrescriptionUpload from './pages/PrescriptionUpload'; // or wherever the file is
 
 
-import VoiceBot from './pages/DiseaseDetection';
+import VoiceBot from './pages/Voicebot';
 import FirstAidInfo from './pages/DiseaseDetection';
 import Appointment from './pages/Appointment';
 import DetailedPrediction from './pages/DetailedPrediction';
