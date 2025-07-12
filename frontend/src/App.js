@@ -7,12 +7,16 @@ import Navbar from './components/Navbar';
 import Dashboard from './components/Dashboard';
 import DiseaseDetection from './pages/DiseaseDetection';
 import SymptomChecker from './pages/DiseaseDetection';
+import PrescriptionUpload from './pages/PrescriptionUpload'; // or wherever the file is
+
+
 import VoiceBot from './pages/DiseaseDetection';
 import FirstAidInfo from './pages/DiseaseDetection';
 import Appointment from './pages/Appointment';
 import DetailedPrediction from './pages/DetailedPrediction';
 import Login from './components/Login';
 import './App.css';
+
 
 const App = () => {
   return (
@@ -24,6 +28,8 @@ const App = () => {
             <Route path="/" element={<Dashboard />} />
             <Route path="/detect" element={<DiseaseDetection />} />
             <Route path="/symptom-checker" element={<SymptomChecker />} />
+            
+            <Route path="/prescription-upload" element={<PrescriptionUpload />} />
             <Route path="/voice-bot" element={<VoiceBot />} />
             <Route path="/first-aid" element={<FirstAidInfo />} />
             <Route path="/appointment" element={<Appointment />} />

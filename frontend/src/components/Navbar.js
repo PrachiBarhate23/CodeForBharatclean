@@ -58,12 +58,16 @@ const Navbar = () => {
             <Link to="/symptom-checker" className={`navbar-link ${isActive('/symptom-checker') ? 'active' : ''}`}>
               {t[lang].symptomChecker}
             </Link>
+            <Link to="/prescription-upload" className={`navbar-link ${isActive('/prescription-upload') ? 'active' : ''}`}>
+              Prescription Extractor
+            </Link>
+
             <Link to="/voice-bot" className={`navbar-link ${isActive('/voice-bot') ? 'active' : ''}`}>
               {t[lang].voiceBot}
             </Link>
-            <Link to="/first-aid" className={`navbar-link ${isActive('/first-aid') ? 'active' : ''}`}>
+            {/* <Link to="/first-aid" className={`navbar-link ${isActive('/first-aid') ? 'active' : ''}`}>
               {t[lang].firstAid}
-            </Link>
+            </Link> */}
           </div>
         </div>
 
