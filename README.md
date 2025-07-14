@@ -89,7 +89,30 @@ E-Pharmacy Integration – Enable users to order detected medicines online.
 
 
 
-FEATURE 3: VOICE 
+FEATURE 3: 
+VOICE BOT – AI Health Assistant
+This feature adds a voice-based AI health assistant to the project, enabling users to ask health-related questions in English or Hindi using their voice.
+
+🧠 Key Features
+🎙️ Voice Input: Users can ask questions via microphone
+
+💬 LLM-Powered Responses: Uses Ollama running Llama3 locally for private and fast AI replies
+
+🧠 Transcription: Converts speech to text using OpenAI Whisper
+
+🗣️ Text-to-Speech: Replies are spoken back using gTTS
+
+🌐 Built with:
+
+Frontend: React + Tailwind
+
+Backend: Flask (Python)
+
+LLM: Ollama (Llama3)
+
+STT: Whisper
+
+TTS: Google Text-to-Speech
 
 
 
