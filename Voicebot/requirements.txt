@@ -1,0 +1,12 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+openai-whisper==20231117
+gTTS==2.4.0
+Werkzeug==2.3.7
+numpy==1.24.3
+torch==2.0.1
+torchaudio==2.0.2
+ffmpeg-python==0.2.0
+requests==2.31.0
+Pillow==10.0.1
+setuptools-rust==1.7.0

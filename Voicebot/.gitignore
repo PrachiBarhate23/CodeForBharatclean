@@ -1,0 +1,19 @@
+# === Python (Flask backend) ===
+.venv/
+__pycache__/
+*.pyc
+
+# === Environment files ===
+.env
+*.env
+.env.*
+
+# === Node (React frontend) ===
+client/node_modules/
+client/build/
+
+# === Common ignores ===
+*.log
+.DS_Store
+.vscode/
+*.sqlite3
